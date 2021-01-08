@@ -19,6 +19,33 @@
           <q-icon name="account_circle" size="32px" style="margin-right: 30px"/>
         </q-btn>
       </q-toolbar>
+      <q-toolbar style="margin-left: 5%; font-size: 26px; color:black; font-weight: bold">
+        <p
+          style="border: solid thin; width: 10%; text-align: center; align-items: center; background-color: rgba(0,0,0,0.2);"
+          @mouseover="test"
+        >Tee</p>
+      </q-toolbar>
+      <q-btn-dropdown style="margin-left: 5%" auto-close label="Tee" v-model="menu" @mouseover="menuOver = true">
+        <q-list @mouseover="menuOver = true" @mouseout="menuOver = false">
+          <q-item clickable>
+            <q-item-section>
+              <q-item-label>Photos</q-item-label>
+            </q-item-section>
+          </q-item>
+
+          <q-item clickable>
+            <q-item-section>
+              <q-item-label>Videos</q-item-label>
+            </q-item-section>
+          </q-item>
+
+          <q-item clickable>
+            <q-item-section>
+              <q-item-label>Articles</q-item-label>
+            </q-item-section>
+          </q-item>
+        </q-list>
+      </q-btn-dropdown>
     </q-header>
     <q-page-container>
       <router-view />
@@ -77,6 +104,9 @@ export default {
   name: 'MainLayout',
   data () {
     return {
+      menu: false,
+      menuOver: false,
+      listOver: false,
       essentialLinks: linksData,
       text: ''
     }
