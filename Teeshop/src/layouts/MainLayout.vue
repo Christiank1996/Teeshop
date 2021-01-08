@@ -1,16 +1,7 @@
 <template>
   <q-layout view="lHh Lpr lFf">
     <q-header elevated style="background-image: linear-gradient(to right, rgba(197,229,175,1), rgba(43,118,65,1))">
-      <q-toolbar style="height:80px">
-        <q-btn
-          style="color: black"
-          flat
-          dense
-          round
-          icon="menu"
-          aria-label="Menu"
-          @click="leftDrawerOpen = !leftDrawerOpen"
-        />
+      <q-toolbar style="height:180px;">
         <img src="~src/assets/tasse_logo2.png" style="width:50px; margin-left: 15px"/>
         <q-toolbar-title style="font-size: 33px; color:black; font-weight: bold">
           Teeshop
@@ -29,15 +20,6 @@
         </q-btn>
       </q-toolbar>
     </q-header>
-    <q-drawer
-      v-model="leftDrawerOpen"
-      show-if-above
-      bordered
-      content-class="bg-grey-1"
-    >
-      <q-list>
-      </q-list>
-    </q-drawer>
     <q-page-container>
       <router-view />
     </q-page-container>
@@ -95,7 +77,6 @@ export default {
   name: 'MainLayout',
   data () {
     return {
-      leftDrawerOpen: false,
       essentialLinks: linksData,
       text: ''
     }

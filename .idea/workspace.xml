@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a79f15d-ba9a-4a1e-b6fb-f7653087bce5" name="Default Changelist" comment=".env geadded">
+    <list default="true" id="4a79f15d-ba9a-4a1e-b6fb-f7653087bce5" name="Default Changelist" comment="Added storage Bilder">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teeshop/src/layouts/MainLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/layouts/MainLayout.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +163,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TeeshopIntelliJ" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -184,19 +184,6 @@
       <recent name="C:\Users\chris\Desktop\CK\Schule\Softwaretechnik I\Teeshop\backend\public" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -212,7 +199,9 @@
       <workItem from="1609948821836" duration="4204000" />
       <workItem from="1609957298133" duration="22000" />
       <workItem from="1609957348185" duration="226000" />
-      <workItem from="1609959268653" duration="34000" />
+      <workItem from="1609959268653" duration="1435000" />
+      <workItem from="1610036185341" duration="278000" />
+      <workItem from="1610120824328" duration="1774000" />
     </task>
     <task id="LOCAL-00001" summary=".env geadded">
       <created>1609955801196</created>
@@ -221,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609955801196</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added storage Bilder">
+      <created>1609959353027</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609959353027</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +237,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=".env geadded" />
-    <option name="LAST_COMMIT_MESSAGE" value=".env geadded" />
+    <MESSAGE value="Added storage Bilder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added storage Bilder" />
   </component>
   <component name="WindowStateProjectService">
     <state x="439" y="93" key="#Project_Structure" timestamp="1609864744373">
@@ -252,18 +249,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="689" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609897377562" />
-    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1609957567991">
+    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1610036460586">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609957567991" />
+    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610036460586" />
     <state x="539" y="262" key="IDE.errors.dialog" timestamp="1609878085652">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="539" y="262" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609878085652" />
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1609955803306">
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1609959356710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609955803306" />
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609959356710" />
     <state x="776" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609955824277">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
