@@ -19,22 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2b3924d-39d7-47e5-89c3-17a8f6c50a61" name="Default Changelist" comment="Warenkorb hinzugefügt">
-      <change afterPath="$PROJECT_DIR$/Teeshop/src/pages/gruenertee.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Teeshop/src/pages/oolongtee.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Teeshop/src/pages/schwarzertee.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Teeshop/src/pages/weissertee.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Teeshop/src/pages/zubehoer.vue" afterDir="false" />
+    <list default="true" id="b2b3924d-39d7-47e5-89c3-17a8f6c50a61" name="Default Changelist" comment="Warenkorb hinzugefügt + Pages für Teesorten">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teeshop/.quasar/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/.quasar/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Teeshop/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/quasar-logo-full.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/tasse_logo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/tasse_logo2.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Teeshop/src/layouts/MainLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/layouts/MainLayout.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/pages/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/pages/Index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/router/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/router/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/database/migrations/2021_01_06_004918_create_produkt_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/migrations/2021_01_06_004918_create_produkt_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/database/seeders/artikelSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/seeders/artikelSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,23 +200,10 @@
       <recent name="C:\Users\chris\Desktop\CK\Schule\Softwaretechnik I\Teeshop\backend\public\storage" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4a79f15d-ba9a-4a1e-b6fb-f7653087bce5" name="Default Changelist" comment="" />
+      <changelist id="b2b3924d-39d7-47e5-89c3-17a8f6c50a61" name="Default Changelist" comment="Warenkorb hinzugefügt + Pages für Teesorten" />
       <created>1609864739694</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -239,6 +218,7 @@
       <workItem from="1609959268653" duration="1435000" />
       <workItem from="1610036185341" duration="278000" />
       <workItem from="1610120824328" duration="4008000" />
+      <workItem from="1610528383066" duration="2470000" />
     </task>
     <task id="LOCAL-00001" summary=".env geadded">
       <created>1609955801196</created>
@@ -275,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610504598218</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Warenkorb hinzugefügt + Pages für Teesorten">
+      <created>1610508382933</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610508382933</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,7 +285,8 @@
     <MESSAGE value="Added storage Bilder" />
     <MESSAGE value="Drawer entfernt" />
     <MESSAGE value="Warenkorb hinzugefügt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Warenkorb hinzugefügt" />
+    <MESSAGE value="Warenkorb hinzugefügt + Pages für Teesorten" />
+    <option name="LAST_COMMIT_MESSAGE" value="Warenkorb hinzugefügt + Pages für Teesorten" />
   </component>
   <component name="WindowStateProjectService">
     <state x="439" y="93" key="#Project_Structure" timestamp="1609864744373">
@@ -325,10 +313,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="680" y="239" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610503232781" />
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1610504600207">
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1610508390042">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610504600207" />
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610508390042" />
     <state x="708" y="253" key="VcsDiffUtil.ChangesDialog" timestamp="1610503208784">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

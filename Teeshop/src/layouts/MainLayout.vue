@@ -115,6 +115,9 @@ button {
   margin-right: 5px;
   height: 40px;
 }
+img {
+  cursor:pointer;
+}
 .q-btn {
   font-size: 18px;
 }
