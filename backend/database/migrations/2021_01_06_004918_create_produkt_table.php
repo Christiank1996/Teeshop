@@ -16,7 +16,7 @@ class CreateProduktTable extends Migration
         Schema::create('produkt', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->enum('art', ['gruentee', 'oolongtee', 'schwarzertee', 'weissertee']);
+            $table->enum('art', ['gruentee', 'oolongtee', 'schwarztee', 'weisstee']);
             $table->string('beschreibung');
             $table->string('imagename');
         });

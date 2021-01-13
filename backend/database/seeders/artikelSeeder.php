@@ -113,97 +113,97 @@ class artikelSeeder extends Seeder
         ]);
         DB::table('produkt')->insert([
             'name' => 'JAVA MALABAR OP',
-            'art' => 'schwarzertee',
+            'art' => 'schwarztee',
             'beschreibung' => 'Sehr gerne empfehlen wir diesen selten angebotenen, herzhaften, indonesischen Hochland Qualitätstee.',
             'imagename' => 'Bilder/Schwarzer Tee/Schwarzer_Tee_Java_Malabar_Op.jpg'
         ]);
         DB::table('produkt')->insert([
             'name' => 'PERSISCHE MISCHUNG',
-            'art' => 'schwarzertee',
+            'art' => 'schwarztee',
             'beschreibung' => 'Unsere traditionelle Teemischung aus dem mittleren Osten mit würzig, vollem Geschmack.',
             'imagename' => 'Bilder/Schwarzer Tee/Schwarzer_Tee_Persische_Mischung.jpg'
         ]);
         DB::table('produkt')->insert([
             'name' => 'TÜRKISCH HOCHLAND',
-            'art' => 'schwarzertee',
+            'art' => 'schwarztee',
             'beschreibung' => 'Kräftiger, sehr ergiebiger Hochland Tee nach bester türkischer Geschmackstradition.',
             'imagename' => 'Bilder/Schwarzer Tee/Schwarzer_Tee_Tuerkisch_Hochland.jpg'
         ]);
         DB::table('produkt')->insert([
             'name' => 'GRUSINISCHE BLATTMISCHUNG',
-            'art' => 'schwarzertee',
+            'art' => 'schwarztee',
             'beschreibung' => 'Zarte Süße mit feinen rauchigen Tönen zeigt dieser angenehm, milde Schwarze Tee nach klassisch georgischer Art.',
             'imagename' => 'Bilder/Schwarzer Tee/Schwarzer_Tee_Grusinische_Blattmischung.jpg'
         ]);
         DB::table('produkt')->insert([
             'name' => 'OSTFRIESISCHER SONNTAGS-TEE',
-            'art' => 'schwarzertee',
+            'art' => 'schwarztee',
             'beschreibung' => 'Der Festtags-Klassiker. Gemischt aus feinsten Assam- und Ceylontees. Veredelt mit echter Bourbon-Vanille.',
             'imagename' => 'Bilder/Schwarzer Tee/Schwarzer_Tee_Ostfriesischer_Sonntagstee.jpg'
         ]);
         DB::table('produkt')->insert([
             'name' => 'ENGLISH BREAKFAST TEA',
-            'art' => 'schwarzertee',
+            'art' => 'schwarztee',
             'beschreibung' => 'Perfekt zum Frühstück. Kräftiger Broken-Tee mit vollem Aroma und liebt natürlich auch Milch/Sahne.',
             'imagename' => 'Bilder/Schwarzer Tee/Schwarzer_Tee_English_Breakfast_Tee.jpg'
         ]);
         DB::table('produkt')->insert([
             'name' => 'ENGLISCHE BLATTMISCHUNG',
-            'art' => 'schwarzertee',
+            'art' => 'schwarztee',
             'beschreibung' => 'Very british. Unsere Kreation aus Assam, Ceylon und Darjeeling Tees für gehobene englische Ansprüche.',
             'imagename' => 'Bilder/Schwarzer Tee/Schwarzer_Tee_Englische_Blattmischung.jpg'
         ]);
         DB::table('produkt')->insert([
             'name' => 'FIVE O CLOCK TEA',
-            'art' => 'schwarzertee',
+            'art' => 'schwarztee',
             'beschreibung' => 'Der kräftig, würzige Klassiker für eine stilvolle Teestunde nach bester englischer Art.',
             'imagename' => 'Bilder/Schwarzer Tee/Schwarzer_Tee_Five_o_Clock_Tee.jpg'
         ]);
         DB::table('produkt')->insert([
             'name' => 'JASMIN DRAGON PEARLS',
-            'art' => 'weissertee',
+            'art' => 'weisstee',
             'beschreibung' => 'Die berühmten Drachen-Perlen aus weißem Tee mit edlem Jasmin. Ein Hochgenuss vom Feinsten.',
             'imagename' => 'Bilder/Weißer Tee/Weisser_Tee_Jasmin_Dragon_Pearls.jpg'
         ]);
         DB::table('produkt')->insert([
             'name' => 'BIO GRANATAPFEL KIRSCH',
-            'art' => 'weissertee',
+            'art' => 'weisstee',
             'beschreibung' => 'Eine Traumkombination. Weißer Biotee, feine Kirschen und orientalischer Granatapfel.',
             'imagename' => 'Bilder/Weißer Tee/Weisser_Tee_Bio_Granatapfel_Kirsch.jpg'
         ]);
         DB::table('produkt')->insert([
             'name' => 'WEISSE BEERE',
-            'art' => 'weissertee',
+            'art' => 'weisstee',
             'beschreibung' => 'Beeindruckend köstlich. Weißer Tee vereint mit einem Quartett edler Beerenfrüchte.',
             'imagename' => 'Bilder/Weißer Tee/Weisser_Tee_Weisse_Beere.jpg'
         ]);
         DB::table('produkt')->insert([
             'name' => 'BIO EARL GREEN',
-            'art' => 'weissertee',
+            'art' => 'weisstee',
             'beschreibung' => 'Betörende Bergamott- und Jasmin Düfte harmonieren mit elegantem Weißen Bio-Tee.',
             'imagename' => 'Bilder/Weißer Tee/Weisser_Tee_Bio_Earl_Green.jpg'
         ]);
         DB::table('produkt')->insert([
             'name' => 'TAUSEND LEBEN',
-            'art' => 'weissertee',
+            'art' => 'weisstee',
             'beschreibung' => 'Weißer Tee und eine Menge Kräuter und Früchte, die es in sich haben.',
             'imagename' => 'Bilder/Weißer Tee/Weisser_Tee_Tausend_Leben.jpg'
         ]);
         DB::table('produkt')->insert([
             'name' => 'WHITE CARAMEL',
-            'art' => 'weissertee',
+            'art' => 'weisstee',
             'beschreibung' => 'Cremige Karamellstücke und zartsüßer Weißer Biotee. Wer kann da schon widerstehen?',
             'imagename' => 'Bilder/Weißer Tee/Weisser_Tee_White_Caramel.jpg'
         ]);
         DB::table('produkt')->insert([
             'name' => 'BIO WEISSER WINTERTRAUM',
-            'art' => 'weissertee',
+            'art' => 'weisstee',
             'beschreibung' => 'Ein wahrer Hochgenuss. Weißer Tee und winterliche Gewürze in bester Bio-Qualität.',
             'imagename' => 'Bilder/Weißer Tee/Weisser_Tee_Bio_Weisser_Wintertraum.jpg'
         ]);
         DB::table('produkt')->insert([
             'name' => 'BIO CHINA PAI MU TAN',
-            'art' => 'weissertee',
+            'art' => 'weisstee',
             'beschreibung' => 'Weißer Tee. Wir führen für Sie eine seit Jahrzehnten bewährte Spitzenqualität aus biologischem Anbau.',
             'imagename' => 'Bilder/Weißer Tee/Weisser_Tee_Bio_China_Pai_Mu_Tan.jpg'
         ]);

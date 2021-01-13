@@ -5,7 +5,11 @@ const routes = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
       { path: '', component: () => import('pages/index.vue') },
-      { path: '', component: () => import('pages/index.vue') }
+      { path: '/gruenertee', component: () => import('pages/gruenertee.vue') },
+      { path: 'oolongtee', component: () => import('pages/oolongtee.vue') },
+      { path: 'schwarzertee', component: () => import('pages/schwarzertee.vue') },
+      { path: 'weissertee', component: () => import('pages/weissertee.vue') },
+      { path: 'zubehoer', component: () => import('pages/zubehoer.vue') }
     ]
   },
 

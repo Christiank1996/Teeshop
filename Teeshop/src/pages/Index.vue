@@ -7,18 +7,17 @@
       <div class="q-col-gutter-md row items-start">
         <div v-for="produkt in alleProdukte" :key="produkt.id" class="col-6">
           <q-item style="background-color: #dddddd">
+            <q-item-section>
           <q-img
             :src="produkt.imagename"
-            style="width: 500px; margin: 10px"
+            style="height: 100%; width: 250px; margin: 10px"
           >
             <div v-if="produkt.id <= 4" class="absolute-bottom text-subtitle1 text-center">
               BELIEBT
             </div>
           </q-img>
-            <q-item>
+            </q-item-section>
               <q-item-section style="font-size: 18px"><b>{{produkt.name}}</b><br>{{produkt.beschreibung}}</q-item-section>
-              <q-item-section style="font-size: 16px"></q-item-section>
-            </q-item>
           </q-item>
         </div>
       </div>
