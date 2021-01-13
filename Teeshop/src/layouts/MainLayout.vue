@@ -20,10 +20,11 @@
         </q-btn>
       </q-toolbar>
       <q-toolbar style="margin-left: 5%; font-size: 26px; color:black; font-weight: bold">
-        <q-btn @click="test"><p
+        <p
           style="border: solid thin; width: 10%; text-align: center; align-items: center; background-color: rgba(0,0,0,0.2);"
           @mouseover="test"
-        >Tee</p></q-btn>
+        >Tee</p>
+        <q-btn @click="test" class="bg-positive">testButton</q-btn>
       </q-toolbar>
       <q-btn-dropdown style="margin-left: 5%" auto-close label="Tee" v-model="menu" @mouseover="menuOver = true">
         <q-list @mouseover="menuOver = true" @mouseout="menuOver = false">

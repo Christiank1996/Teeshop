@@ -19,83 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2b3924d-39d7-47e5-89c3-17a8f6c50a61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Teeshop/src/assets/TeeSymbol.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="b2b3924d-39d7-47e5-89c3-17a8f6c50a61" name="Default Changelist" comment="Drawer entfernt">
+      <change afterPath="$PROJECT_DIR$/Teeshop/.quasar/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Teeshop/.quasar/client-entry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Teeshop/.quasar/client-prefetch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Teeshop/.quasar/import-quasar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teeshop/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Teeshop/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/public/Bilder/Gruentee_Bio_China_Lung_Ching.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/public/Bilder/Gruentee_Bio_China_Lung_Ching.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/public/Bilder/Grüner Tee/Gruentee_Bio_China_Lung_Ching.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/public/Bilder/Grüner Tee/Gruentee_Bio_China_Lung_Ching.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/public/Bilder/Grüner Tee/Gruentee_Bio_Japan_Sencha_Uji.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/public/Bilder/Grüner Tee/Gruentee_Bio_Japan_Sencha_Uji.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/public/Bilder/Grüner Tee/Gruentee_China_Mao_Feng.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/public/Bilder/Grüner Tee/Gruentee_China_Mao_Feng.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/public/Bilder/Grüner Tee/Gruentee_China_White_Monkey.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/public/Bilder/Grüner Tee/Gruentee_China_White_Monkey.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/public/Bilder/Grüner Tee/Gruentee_China_Yin_Zhen.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/public/Bilder/Grüner Tee/Gruentee_China_Yin_Zhen.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/public/Bilder/Grüner Tee/Gruentee_Gyokuro-Himmelswiese.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/public/Bilder/Grüner Tee/Gruentee_Gyokuro-Himmelswiese.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/public/Bilder/Grüner Tee/Gruentee_Japan_Sencha_Miyako.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/public/Bilder/Grüner Tee/Gruentee_Japan_Sencha_Miyako.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/public/Bilder/Grüner Tee/Gruentee_Sencha_Gabalong.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/public/Bilder/Grüner Tee/Gruentee_Sencha_Gabalong.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/public/Bilder/Oolong Tee/Oolong_Tee_Bio_Pao_Chung_Pouchong.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/public/Bilder/Oolong Tee/Oolong_Tee_Bio_Pao_Chung_Pouchong.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/public/Bilder/Oolong Tee/Oolong_Tee_Formosa_Fancy_Oolong.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/public/Bilder/Oolong Tee/Oolong_Tee_Formosa_Fancy_Oolong.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/public/Bilder/Oolong Tee/Oolong_Tee_Formosa_Oolong.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/public/Bilder/Oolong Tee/Oolong_Tee_Formosa_Oolong.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/public/Bilder/Oolong Tee/Oolong_Tee_Four_Seasons_Oolong.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/public/Bilder/Oolong Tee/Oolong_Tee_Four_Seasons_Oolong.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/public/Bilder/Oolong Tee/Oolong_Tee_Gelber_Tee_Kekecha.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/public/Bilder/Oolong Tee/Oolong_Tee_Gelber_Tee_Kekecha.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/public/Bilder/Oolong Tee/Oolong_Tee_Milky_Oolong.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/public/Bilder/Oolong Tee/Oolong_Tee_Milky_Oolong.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/public/Bilder/Oolong Tee/Oolong_Tee_Orangenblueten_Oolong.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/public/Bilder/Oolong Tee/Oolong_Tee_Orangenblueten_Oolong.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/public/Bilder/Oolong Tee/Oolong_Tee_Superior_Fancy_Oolong.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/public/Bilder/Oolong Tee/Oolong_Tee_Superior_Fancy_Oolong.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/public/Bilder/Schwarzer Tee/Schwarzer_Tee_Englische_Blattmischung.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/public/Bilder/Schwarzer Tee/Schwarzer_Tee_Englische_Blattmischung.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/public/Bilder/Schwarzer Tee/Schwarzer_Tee_English_Breakfast_Tee.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/public/Bilder/Schwarzer Tee/Schwarzer_Tee_English_Breakfast_Tee.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/public/Bilder/Schwarzer Tee/Schwarzer_Tee_Five_o_Clock_Tee.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/public/Bilder/Schwarzer Tee/Schwarzer_Tee_Five_o_Clock_Tee.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/public/Bilder/Schwarzer Tee/Schwarzer_Tee_Grusinische_Blattmischung.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/public/Bilder/Schwarzer Tee/Schwarzer_Tee_Grusinische_Blattmischung.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/public/Bilder/Schwarzer Tee/Schwarzer_Tee_Java_Malabar_Op.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/public/Bilder/Schwarzer Tee/Schwarzer_Tee_Java_Malabar_Op.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/public/Bilder/Schwarzer Tee/Schwarzer_Tee_Ostfriesischer_Sonntagstee.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/public/Bilder/Schwarzer Tee/Schwarzer_Tee_Ostfriesischer_Sonntagstee.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/public/Bilder/Schwarzer Tee/Schwarzer_Tee_Persische_Mischung.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/public/Bilder/Schwarzer Tee/Schwarzer_Tee_Persische_Mischung.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/public/Bilder/Schwarzer Tee/Schwarzer_Tee_Tuerkisch_Hochland.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/public/Bilder/Schwarzer Tee/Schwarzer_Tee_Tuerkisch_Hochland.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/public/Bilder/Weißer Tee/Weisser_Tee_Bio_China_Pai_Mu_Tan.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/public/Bilder/Weißer Tee/Weisser_Tee_Bio_China_Pai_Mu_Tan.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/public/Bilder/Weißer Tee/Weisser_Tee_Bio_Earl_Green.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/public/Bilder/Weißer Tee/Weisser_Tee_Bio_Earl_Green.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/public/Bilder/Weißer Tee/Weisser_Tee_Bio_Granatapfel_Kirsch.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/public/Bilder/Weißer Tee/Weisser_Tee_Bio_Granatapfel_Kirsch.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/public/Bilder/Weißer Tee/Weisser_Tee_Bio_Weisser_Wintertraum.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/public/Bilder/Weißer Tee/Weisser_Tee_Bio_Weisser_Wintertraum.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/public/Bilder/Weißer Tee/Weisser_Tee_Jasmin_Dragon_Pearls.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/public/Bilder/Weißer Tee/Weisser_Tee_Jasmin_Dragon_Pearls.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/public/Bilder/Weißer Tee/Weisser_Tee_Tausend_Leben.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/public/Bilder/Weißer Tee/Weisser_Tee_Tausend_Leben.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/public/Bilder/Weißer Tee/Weisser_Tee_Weisse_Beere.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/public/Bilder/Weißer Tee/Weisser_Tee_Weisse_Beere.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/public/Bilder/Weißer Tee/Weisser_Tee_White_Caramel.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/public/Bilder/Weißer Tee/Weisser_Tee_White_Caramel.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Gruentee_Bio_China_Lung_Ching.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Gruentee_Bio_China_Lung_Ching.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Gruentee_Bio_Japan_Sencha_Uji.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Gruentee_Bio_Japan_Sencha_Uji.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Gruentee_China_Mao_Feng.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Gruentee_China_Mao_Feng.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Grüner Tee/Gruentee_Bio_China_Lung_Ching.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Grüner Tee/Gruentee_Bio_China_Lung_Ching.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Grüner Tee/Gruentee_Bio_Japan_Sencha_Uji.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Grüner Tee/Gruentee_Bio_Japan_Sencha_Uji.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Grüner Tee/Gruentee_China_Mao_Feng.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Grüner Tee/Gruentee_China_Mao_Feng.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Grüner Tee/Gruentee_China_White_Monkey.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Grüner Tee/Gruentee_China_White_Monkey.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Grüner Tee/Gruentee_China_Yin_Zhen.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Grüner Tee/Gruentee_China_Yin_Zhen.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Grüner Tee/Gruentee_Gyokuro-Himmelswiese.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Grüner Tee/Gruentee_Gyokuro-Himmelswiese.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Grüner Tee/Gruentee_Japan_Sencha_Miyako.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Grüner Tee/Gruentee_Japan_Sencha_Miyako.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Grüner Tee/Gruentee_Sencha_Gabalong.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Grüner Tee/Gruentee_Sencha_Gabalong.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Oolong Tee/Oolong_Tee_Bio_Pao_Chung_Pouchong.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Oolong Tee/Oolong_Tee_Bio_Pao_Chung_Pouchong.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Oolong Tee/Oolong_Tee_Formosa_Fancy_Oolong.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Oolong Tee/Oolong_Tee_Formosa_Fancy_Oolong.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Oolong Tee/Oolong_Tee_Formosa_Oolong.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Oolong Tee/Oolong_Tee_Formosa_Oolong.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Oolong Tee/Oolong_Tee_Four_Seasons_Oolong.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Oolong Tee/Oolong_Tee_Four_Seasons_Oolong.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Oolong Tee/Oolong_Tee_Gelber_Tee_Kekecha.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Oolong Tee/Oolong_Tee_Gelber_Tee_Kekecha.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Oolong Tee/Oolong_Tee_Milky_Oolong.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Oolong Tee/Oolong_Tee_Milky_Oolong.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Oolong Tee/Oolong_Tee_Orangenblueten_Oolong.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Oolong Tee/Oolong_Tee_Orangenblueten_Oolong.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Oolong Tee/Oolong_Tee_Superior_Fancy_Oolong.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Oolong Tee/Oolong_Tee_Superior_Fancy_Oolong.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Schwarzer Tee/Schwarzer_Tee_Englische_Blattmischung.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Schwarzer Tee/Schwarzer_Tee_Englische_Blattmischung.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Schwarzer Tee/Schwarzer_Tee_English_Breakfast_Tee.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Schwarzer Tee/Schwarzer_Tee_English_Breakfast_Tee.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Schwarzer Tee/Schwarzer_Tee_Five_o_Clock_Tee.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Schwarzer Tee/Schwarzer_Tee_Five_o_Clock_Tee.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Schwarzer Tee/Schwarzer_Tee_Grusinische_Blattmischung.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Schwarzer Tee/Schwarzer_Tee_Grusinische_Blattmischung.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Schwarzer Tee/Schwarzer_Tee_Java_Malabar_Op.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Schwarzer Tee/Schwarzer_Tee_Java_Malabar_Op.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Schwarzer Tee/Schwarzer_Tee_Ostfriesischer_Sonntagstee.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Schwarzer Tee/Schwarzer_Tee_Ostfriesischer_Sonntagstee.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Schwarzer Tee/Schwarzer_Tee_Persische_Mischung.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Schwarzer Tee/Schwarzer_Tee_Persische_Mischung.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Schwarzer Tee/Schwarzer_Tee_Tuerkisch_Hochland.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Schwarzer Tee/Schwarzer_Tee_Tuerkisch_Hochland.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Weißer Tee/Weisser_Tee_Bio_China_Pai_Mu_Tan.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Weißer Tee/Weisser_Tee_Bio_China_Pai_Mu_Tan.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Weißer Tee/Weisser_Tee_Bio_Earl_Green.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Weißer Tee/Weisser_Tee_Bio_Earl_Green.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Weißer Tee/Weisser_Tee_Bio_Granatapfel_Kirsch.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Weißer Tee/Weisser_Tee_Bio_Granatapfel_Kirsch.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Weißer Tee/Weisser_Tee_Bio_Weisser_Wintertraum.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Weißer Tee/Weisser_Tee_Bio_Weisser_Wintertraum.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Weißer Tee/Weisser_Tee_Jasmin_Dragon_Pearls.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Weißer Tee/Weisser_Tee_Jasmin_Dragon_Pearls.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Weißer Tee/Weisser_Tee_Tausend_Leben.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Weißer Tee/Weisser_Tee_Tausend_Leben.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Weißer Tee/Weisser_Tee_Weisse_Beere.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Weißer Tee/Weisser_Tee_Weisse_Beere.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Weißer Tee/Weisser_Tee_White_Caramel.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/Weißer Tee/Weisser_Tee_White_Caramel.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/quasar-logo-full.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/tasse_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/tasse_logo2.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Teeshop/src/layouts/MainLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/layouts/MainLayout.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Teeshop/src/pages/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/pages/Index.vue" afterDir="false" />
     </list>
@@ -239,6 +173,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -315,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610122619237</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Drawer entfernt">
+      <created>1610503094585</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610503094585</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,14 +302,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="539" y="262" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609878085652" />
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1610122623938">
+    <state x="680" y="239" key="RollbackChangesDialog" timestamp="1610503232781">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610122623938" />
-    <state x="776" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610123417212">
+    <state x="680" y="239" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610503232781" />
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1610503102321">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="776" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610123417212" />
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610503102321" />
+    <state x="708" y="253" key="VcsDiffUtil.ChangesDialog" timestamp="1610503208784">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="708" y="253" key="VcsDiffUtil.ChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610503208784" />
+    <state x="776" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610503194790">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="776" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610503194790" />
     <state x="341" y="202" key="new project wizard" timestamp="1609957317995">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
