@@ -1,4 +1,5 @@
 <template>
+  <!-- Div -> Container fuer die Flaeche die Designed wird -->
   <div class="flex flex-center" style="background-color: rgb(255, 244, 244)">
   <div style="width:90%; border: solid 2px; margin-top: 10px; border-color: darkgrey">
     <q-scroll-area style="height:843px;width: 100%; background-color: #EEEEEE">
@@ -41,10 +42,15 @@ export default {
   methods: {
     test () {
       axios.get('http://127.0.0.1:8000/api/test').then(response => { this.name = response.data })
+      this.$store.commit('test', { id: '4', name: 'chris', email: 'hanspeter@gibtsnicht.de' })
+      console.log('id = ' + this.$store.state.user.id)
+      console.log('name = ' + this.$store.state.user.name)
+      console.log('email = ' + this.$store.state.user.email)
     }
   },
   mounted () {
     axios.get('http://127.0.0.1:8000/api/alleTeesorten').then(response => { this.alleProdukte = response.data }).then(console.log(this.alleProdukte))
+    this.test()
   }
 }
 </script>
