@@ -20,13 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2b3924d-39d7-47e5-89c3-17a8f6c50a61" name="Default Changelist" comment="Warenkorb hinzugefügt + Pages für Teesorten">
+      <change afterPath="$PROJECT_DIR$/backend/database/migrations/2021_01_13_100812_create_preise_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/database/migrations/2021_01_13_101658_create_produkt_preise_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/database/seeders/preiseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/database/seeders/produkt_preiseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Teeshop/.quasar/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/.quasar/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/quasar-logo-full.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/tasse_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/assets/tasse_logo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/layouts/MainLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/layouts/MainLayout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teeshop/.quasar/client-entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/.quasar/client-entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teeshop/.quasar/client-prefetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/.quasar/client-prefetch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teeshop/.quasar/import-quasar.js" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/.quasar/import-quasar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/database/migrations/2021_01_06_004918_create_produkt_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/migrations/2021_01_06_004918_create_produkt_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/database/seeders/artikelSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/seeders/produktSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,6 +190,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -219,6 +225,7 @@
       <workItem from="1610036185341" duration="278000" />
       <workItem from="1610120824328" duration="4008000" />
       <workItem from="1610528383066" duration="2470000" />
+      <workItem from="1610534273115" duration="1665000" />
     </task>
     <task id="LOCAL-00001" summary=".env geadded">
       <created>1609955801196</created>
@@ -287,47 +294,5 @@
     <MESSAGE value="Warenkorb hinzugefügt" />
     <MESSAGE value="Warenkorb hinzugefügt + Pages für Teesorten" />
     <option name="LAST_COMMIT_MESSAGE" value="Warenkorb hinzugefügt + Pages für Teesorten" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="439" y="93" key="#Project_Structure" timestamp="1609864744373">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="439" y="93" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1609864744373" />
-    <state x="689" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610502975876">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="689" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610502975876" />
-    <state x="689" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1609897377562">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="689" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609897377562" />
-    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1610036460586">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610036460586" />
-    <state x="539" y="262" key="IDE.errors.dialog" timestamp="1609878085652">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="539" y="262" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609878085652" />
-    <state x="680" y="239" key="RollbackChangesDialog" timestamp="1610503232781">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="680" y="239" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610503232781" />
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1610508390042">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610508390042" />
-    <state x="708" y="253" key="VcsDiffUtil.ChangesDialog" timestamp="1610503208784">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="708" y="253" key="VcsDiffUtil.ChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610503208784" />
-    <state x="776" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610505141249">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="776" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610505141249" />
-    <state x="341" y="202" key="new project wizard" timestamp="1609957317995">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="341" y="202" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1609957317995" />
   </component>
 </project>
