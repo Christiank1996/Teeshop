@@ -19,19 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2b3924d-39d7-47e5-89c3-17a8f6c50a61" name="Default Changelist" comment="Warenkorb hinzugefügt + Pages für Teesorten">
-      <change afterPath="$PROJECT_DIR$/backend/database/migrations/2021_01_13_100812_create_preise_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/database/migrations/2021_01_13_101658_create_produkt_preise_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/database/seeders/preiseSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/database/seeders/produkt_preiseSeeder.php" afterDir="false" />
+    <list default="true" id="b2b3924d-39d7-47e5-89c3-17a8f6c50a61" name="Default Changelist" comment="Preisetabelle + Produkt-Preise-Tabelle">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/.quasar/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/.quasar/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/.quasar/client-entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/.quasar/client-entry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/.quasar/client-prefetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/.quasar/client-prefetch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/.quasar/import-quasar.js" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/.quasar/import-quasar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/database/migrations/2021_01_06_004918_create_produkt_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/migrations/2021_01_06_004918_create_produkt_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/database/seeders/artikelSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/seeders/produktSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teeshop/src/layouts/MainLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/layouts/MainLayout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teeshop/src/pages/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/pages/Index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/database/seeders/produktSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/seeders/produktSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,6 +218,7 @@
       <workItem from="1610120824328" duration="4008000" />
       <workItem from="1610528383066" duration="2470000" />
       <workItem from="1610534273115" duration="1665000" />
+      <workItem from="1610899314622" duration="1254000" />
     </task>
     <task id="LOCAL-00001" summary=".env geadded">
       <created>1609955801196</created>
@@ -269,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610508382933</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Preisetabelle + Produkt-Preise-Tabelle">
+      <created>1610899449523</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610899449523</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,6 +293,7 @@
     <MESSAGE value="Drawer entfernt" />
     <MESSAGE value="Warenkorb hinzugefügt" />
     <MESSAGE value="Warenkorb hinzugefügt + Pages für Teesorten" />
-    <option name="LAST_COMMIT_MESSAGE" value="Warenkorb hinzugefügt + Pages für Teesorten" />
+    <MESSAGE value="Preisetabelle + Produkt-Preise-Tabelle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Preisetabelle + Produkt-Preise-Tabelle" />
   </component>
 </project>

@@ -72,10 +72,6 @@ export default {
   },
   methods: {
     test () {
-      this.$store.commit('test', { id: '4', name: 'chris' })
-      console.log('id = ' + this.$store.state.user.id)
-      console.log('name = ' + this.$store.state.user.name)
-      console.log('email = ' + this.$store.state.user.email)
     },
     pushMethod (value) {
       switch (value) {
@@ -100,11 +96,8 @@ export default {
       }
     },
     countWarenkorb () {
-      let i = 0
-      for (let z = 0; z < this.$store.state.warenkorb.length; z++) {
-        i += this.$store.state.warenkorb[z].anzahl
-      }
-      return i
+      const count = 0
+      return count
     }
   }
 }
