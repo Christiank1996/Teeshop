@@ -19,8 +19,8 @@
             </q-item-section>
               <q-item-section style="font-size: 18px">
                 <b>{{produkt.name}}</b><br>{{produkt.beschreibung}}<br><br>
-                ab {{produkt.preis}}€<br>
-                <span style="font-size: 13px">Inhalt: 100g</span>
+                ab {{ (2.65 * inhalt).toString().substr(0, ((2.65 * inhalt).toString().length) - 2) + ',' + (2.65 * inhalt).toString().substr(((2.65 * inhalt).toString().length - 2)) }}€<br>
+                <span style="font-size: 13px">Inhalt: {{ inhalt }}g</span>
               </q-item-section>
           </q-item>
         </div>
@@ -95,6 +95,7 @@ export default {
     return {
       name: '',
       amount: '1',
+      inhalt: '200',
       indexNumber: '0',
       showArticle: false,
       alleProdukte: []

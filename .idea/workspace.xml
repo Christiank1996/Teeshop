@@ -20,15 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2b3924d-39d7-47e5-89c3-17a8f6c50a61" name="Default Changelist" comment="Warenkorb hinzugefügt">
-      <change afterPath="$PROJECT_DIR$/Teeshop/public/Bilder/logo_Jasmindrache.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/logo_Jasmindrache.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Teeshop/.quasar/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/.quasar/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Teeshop/.quasar/client-entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/.quasar/client-entry.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Teeshop/.quasar/client-prefetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/.quasar/client-prefetch.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Teeshop/.quasar/import-quasar.js" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/.quasar/import-quasar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/layouts/MainLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/layouts/MainLayout.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Teeshop/src/pages/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/pages/Index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,9 +98,7 @@
       <path value="$PROJECT_DIR$/backend/vendor/phar-io/version" />
       <path value="$PROJECT_DIR$/backend/vendor/ramsey/uuid" />
       <path value="$PROJECT_DIR$/backend/vendor/vlucas/phpdotenv" />
-      <path value="$PROJECT_DIR$/backend/vendor/nesbot/carbon" />
       <path value="$PROJECT_DIR$/backend/vendor/ramsey/collection" />
-      <path value="$PROJECT_DIR$/backend/vendor/laravel/framework" />
       <path value="$PROJECT_DIR$/backend/vendor/laravel/sail" />
       <path value="$PROJECT_DIR$/backend/vendor/dnoegel/php-xdg-base-dir" />
       <path value="$PROJECT_DIR$/backend/vendor/egulias/email-validator" />
@@ -111,7 +106,6 @@
       <path value="$PROJECT_DIR$/backend/vendor/brick/math" />
       <path value="$PROJECT_DIR$/backend/vendor/nikic/php-parser" />
       <path value="$PROJECT_DIR$/backend/vendor/league/flysystem" />
-      <path value="$PROJECT_DIR$/backend/vendor/league/mime-type-detection" />
       <path value="$PROJECT_DIR$/backend/vendor/league/commonmark" />
       <path value="$PROJECT_DIR$/backend/vendor/psr/simple-cache" />
       <path value="$PROJECT_DIR$/backend/vendor/psy/psysh" />
@@ -132,7 +126,6 @@
       <path value="$PROJECT_DIR$/backend/vendor/guzzlehttp/psr7" />
       <path value="$PROJECT_DIR$/backend/vendor/nunomaduro/collision" />
       <path value="$PROJECT_DIR$/backend/vendor/guzzlehttp/guzzle" />
-      <path value="$PROJECT_DIR$/backend/vendor/guzzlehttp/promises" />
       <path value="$PROJECT_DIR$/backend/vendor/dragonmantank/cron-expression" />
       <path value="$PROJECT_DIR$/backend/vendor/phpdocumentor/reflection-common" />
       <path value="$PROJECT_DIR$/backend/vendor/swiftmailer/swiftmailer" />
@@ -164,9 +157,13 @@
       <path value="$PROJECT_DIR$/backend/vendor/laravel/ui" />
       <path value="$PROJECT_DIR$/backend/vendor/symfony/event-dispatcher" />
       <path value="$PROJECT_DIR$/backend/vendor/facade/ignition-contracts" />
-      <path value="$PROJECT_DIR$/backend/vendor/facade/flare-client-php" />
-      <path value="$PROJECT_DIR$/backend/vendor/fideloper/proxy" />
       <path value="$PROJECT_DIR$/backend/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/backend/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/backend/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/backend/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/backend/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/backend/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/backend/vendor/guzzlehttp/promises" />
     </include_path>
   </component>
   <component name="ProjectId" id="1mer8aAh8v0AKxsJngjT482dqJE" />
@@ -185,7 +182,7 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -222,6 +219,7 @@
       <workItem from="1610036185341" duration="278000" />
       <workItem from="1610120824328" duration="4008000" />
       <workItem from="1611002990869" duration="972000" />
+      <workItem from="1611005744865" duration="1104000" />
     </task>
     <task id="LOCAL-00001" summary=".env geadded">
       <created>1609955801196</created>
@@ -282,5 +280,11 @@
     <MESSAGE value="Drawer entfernt" />
     <MESSAGE value="Warenkorb hinzugefügt" />
     <option name="LAST_COMMIT_MESSAGE" value="Warenkorb hinzugefügt" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="439" y="93" key="SettingsEditor" timestamp="1611006299494">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="439" y="93" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611006299494" />
   </component>
 </project>
