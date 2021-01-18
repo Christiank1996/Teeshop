@@ -1,7 +1,7 @@
 <template>
   <!-- Div -> Container fuer die Flaeche die Designed wird -->
   <div class="flex flex-center" style="background-color: rgb(255, 244, 244)">
-  <div style="width:90%; border: solid 2px; margin-top: 10px; border-color: darkgrey">
+  <div style="width:90%">
     <q-scroll-area style="height:843px;width: 100%; background-color: #EEEEEE">
     <div class="q-pa-md">
       <div class="q-col-gutter-md row items-start">

@@ -96,8 +96,8 @@ export default {
       }
     },
     countWarenkorb () {
-      const count = 0
-      return count
+      const i = 0
+      return i
     }
   }
 }
@@ -107,9 +107,6 @@ button {
   margin-left: 5px;
   margin-right: 5px;
   height: 40px;
-}
-img {
-  cursor:pointer;
 }
 .q-btn {
   font-size: 18px;

@@ -19,13 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2b3924d-39d7-47e5-89c3-17a8f6c50a61" name="Default Changelist" comment="store aus den pages genommen">
+    <list default="true" id="b2b3924d-39d7-47e5-89c3-17a8f6c50a61" name="Default Changelist" comment="Warenkorb hinzugefügt">
+      <change afterPath="$PROJECT_DIR$/Teeshop/public/Bilder/logo_Jasmindrache.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Teeshop/src/assets/Bilder/logo_Jasmindrache.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/pages/gruenertee.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/pages/gruenertee.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/pages/oolongtee.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/pages/oolongtee.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/pages/schwarzertee.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/pages/schwarzertee.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/pages/weissertee.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/pages/weissertee.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/pages/zubehoer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/pages/zubehoer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teeshop/.quasar/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/.quasar/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teeshop/.quasar/client-entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/.quasar/client-entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teeshop/.quasar/client-prefetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/.quasar/client-prefetch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teeshop/.quasar/import-quasar.js" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/.quasar/import-quasar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teeshop/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teeshop/src/layouts/MainLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/layouts/MainLayout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teeshop/src/pages/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/pages/Index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +188,6 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -203,7 +206,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b2b3924d-39d7-47e5-89c3-17a8f6c50a61" name="Default Changelist" comment="Warenkorb hinzugefügt + Pages für Teesorten" />
+      <changelist id="b2b3924d-39d7-47e5-89c3-17a8f6c50a61" name="Default Changelist" comment="Warenkorb hinzugefügt" />
       <created>1609864739694</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -218,9 +221,7 @@
       <workItem from="1609959268653" duration="1435000" />
       <workItem from="1610036185341" duration="278000" />
       <workItem from="1610120824328" duration="4008000" />
-      <workItem from="1610528383066" duration="2470000" />
-      <workItem from="1610534273115" duration="1665000" />
-      <workItem from="1610899314622" duration="1254000" />
+      <workItem from="1611002990869" duration="972000" />
     </task>
     <task id="LOCAL-00001" summary=".env geadded">
       <created>1609955801196</created>
@@ -257,21 +258,7 @@
       <option name="project" value="LOCAL" />
       <updated>1610504598218</updated>
     </task>
-    <task id="LOCAL-00006" summary="Warenkorb hinzugefügt + Pages für Teesorten">
-      <created>1610508382933</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1610508382933</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Preisetabelle + Produkt-Preise-Tabelle">
-      <created>1610899449523</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1610899449523</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,9 +281,6 @@
     <MESSAGE value="Added storage Bilder" />
     <MESSAGE value="Drawer entfernt" />
     <MESSAGE value="Warenkorb hinzugefügt" />
-    <MESSAGE value="Warenkorb hinzugefügt + Pages für Teesorten" />
-    <MESSAGE value="Preisetabelle + Produkt-Preise-Tabelle" />
-    <MESSAGE value="store aus den pages genommen" />
-    <option name="LAST_COMMIT_MESSAGE" value="store aus den pages genommen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Warenkorb hinzugefügt" />
   </component>
 </project>
