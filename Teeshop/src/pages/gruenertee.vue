@@ -42,10 +42,6 @@ export default {
   methods: {
     test () {
       axios.get('http://127.0.0.1:8000/api/test').then(response => { this.name = response.data }).then(response => this.filterGruentee())
-      this.$store.commit('test', { id: '4', name: 'chris', email: 'hanspeter@gibtsnicht.de', neueVariable: 'test' })
-      console.log('id = ' + this.$store.state.user.id)
-      console.log('name = ' + this.$store.state.user.name)
-      console.log('email = ' + this.$store.state.user.email)
     },
     filterGruentee () {
       for (let i = 0; i < this.alleProdukte.length; i++) {
