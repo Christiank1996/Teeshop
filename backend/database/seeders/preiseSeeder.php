@@ -14,28 +14,28 @@ class preiseSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('preis')->insert([
+        DB::table('preise')->insert([
             'id' => '1',
             'groesse' => '50g',
-            'preis' => '2,65'
+            'preis' => '2.65'
         ]);
 
-        DB::table('preis')->insert([
+        DB::table('preise')->insert([
             'id' => '2',
             'groesse' => '100g',
-            'preis' => '5,30'
+            'preis' => '5.30'
         ]);
 
-        DB::table('preis')->insert([
+        DB::table('preise')->insert([
             'id' => '3',
             'groesse' => '200g',
-            'preis' => '10,60'
+            'preis' => '10.60'
         ]);
 
         DB::table('preise')->insert([
             'id' => '4',
             'groesse' => '500g',
-            'preis' => '26,50'
+            'preis' => '26.50'
         ]);
     }
 }

@@ -20,10 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2b3924d-39d7-47e5-89c3-17a8f6c50a61" name="Default Changelist" comment="Preisetabelle + Produkt-Preise-Tabelle">
+      <change afterPath="$PROJECT_DIR$/backend/database/migrations/2021_01_14_192302_create_warenkorb_liste_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/database/migrations/2021_01_14_192303_create_warenkorb_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/database/seeders/warenkorbSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/database/seeders/warenkorb_listeSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/layouts/MainLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/layouts/MainLayout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teeshop/.quasar/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/.quasar/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teeshop/.quasar/client-entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/.quasar/client-entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teeshop/.quasar/client-prefetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/.quasar/client-prefetch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teeshop/.quasar/import-quasar.js" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/.quasar/import-quasar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Teeshop/src/pages/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/pages/Index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/Http/Controllers/ProduktController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Http/Controllers/ProduktController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/database/migrations/2021_01_13_100812_create_preise_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/migrations/2021_01_13_100812_create_preise_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/database/migrations/2021_01_13_101658_create_produkt_preise_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/migrations/2021_01_13_101658_create_produkt_preise_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/database/seeders/preiseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/seeders/preiseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/database/seeders/produktSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/seeders/produktSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/database/seeders/produkt_preiseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/seeders/produkt_preiseSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,12 +179,15 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1mer8aAh8v0AKxsJngjT482dqJE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -219,6 +237,7 @@
       <workItem from="1610528383066" duration="2470000" />
       <workItem from="1610534273115" duration="1665000" />
       <workItem from="1610899314622" duration="1254000" />
+      <workItem from="1610915095692" duration="15530000" />
     </task>
     <task id="LOCAL-00001" summary=".env geadded">
       <created>1609955801196</created>
@@ -288,6 +307,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value=".env geadded" />
     <MESSAGE value="Added storage Bilder" />
     <MESSAGE value="Drawer entfernt" />
@@ -295,5 +315,15 @@
     <MESSAGE value="Warenkorb hinzugefügt + Pages für Teesorten" />
     <MESSAGE value="Preisetabelle + Produkt-Preise-Tabelle" />
     <option name="LAST_COMMIT_MESSAGE" value="Preisetabelle + Produkt-Preise-Tabelle" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="689" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1610915417139">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="689" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610915417139" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1610920069956">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610920069956" />
   </component>
 </project>

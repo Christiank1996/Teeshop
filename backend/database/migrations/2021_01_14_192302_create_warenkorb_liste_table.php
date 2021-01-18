@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreatePreiseTable extends Migration
+class CreateWarenkorbListeTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,11 @@ class CreatePreiseTable extends Migration
      */
     public function up()
     {
-        Schema::create('preise', function (Blueprint $table) {
+        Schema::create('warenkorb_liste', function (Blueprint $table) {
             $table->id();
-            $table->enum('groesse', ['50g', '100g', '200g', '500g']);
-            $table->decimal('preis');
+            $table->foreignId('produkt_id')->nullable()->constrained('produkt')->onDelete('set null');
+            $table->integer('menge');
+            $table->String('gewicht');
         });
     }
 
@@ -27,6 +28,6 @@ class CreatePreiseTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('preise');
+        Schema::dropIfExists('warenkorb_liste');
     }
 }

@@ -15,8 +15,8 @@ class CreateProduktPreiseTable extends Migration
     {
         Schema::create('produkt_preise', function (Blueprint $table) {
             $table->id();
-            $table->foreignid('produkt_id')->references('id')->on('produkt');
-            $table->foreignid('preise_id')->references('id')->on('preise');
+            $table->foreignId('produkt_id')->constrained('produkt')->onDelete('cascade');
+            $table->foreignId('preise_id')->constrained('preise')->onDelete('cascade');
         });
     }
 

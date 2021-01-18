@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreatePreiseTable extends Migration
+class CreateWarenkorbTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,10 @@ class CreatePreiseTable extends Migration
      */
     public function up()
     {
-        Schema::create('preise', function (Blueprint $table) {
+        Schema::create('warenkorb', function (Blueprint $table) {
             $table->id();
-            $table->enum('groesse', ['50g', '100g', '200g', '500g']);
-            $table->decimal('preis');
+            $table->foreignId('user_id')->nullable()->constrained('users')->onDelete('set null');
+            $table->foreignId('warenkorb_liste_id')->nullable()->constrained('warenkorb_liste');
         });
     }
 
@@ -27,6 +27,6 @@ class CreatePreiseTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('preise');
+        Schema::dropIfExists('warenkorb');
     }
 }

@@ -14,14 +14,37 @@ class produkt_preiseSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('p')->insert([
+        DB::table('produkt_preise')->insert([
             'produkt_id' => '1',
             'preise_id' => '1'
         ]);
-
-        DB::table('p')->insert([
+        DB::table('produkt_preise')->insert([
             'produkt_id' => '1',
+            'preise_id' => '2'
+        ]);
+        DB::table('produkt_preise')->insert([
+            'produkt_id' => '1',
+            'preise_id' => '3'
+        ]);
+        DB::table('produkt_preise')->insert([
+            'produkt_id' => '1',
+            'preise_id' => '4'
+        ]);
+        DB::table('produkt_preise')->insert([
+            'produkt_id' => '2',
             'preise_id' => '1'
+        ]);
+        DB::table('produkt_preise')->insert([
+            'produkt_id' => '2',
+            'preise_id' => '2'
+        ]);
+        DB::table('produkt_preise')->insert([
+            'produkt_id' => '2',
+            'preise_id' => '3'
+        ]);
+        DB::table('produkt_preise')->insert([
+            'produkt_id' => '2',
+            'preise_id' => '4'
         ]);
     }
 }
