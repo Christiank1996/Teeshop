@@ -1,5 +1,34 @@
 <template>
   <q-layout view="lHh Lpr lFf">
+    <q-drawer
+      side="right"
+      v-model="right"
+      show-if-above
+      :width="300"
+      overlay
+      :breakpoint="500"
+      bordered
+      content-class="bg-grey-3"
+    >
+      <q-scroll-area class="fit">
+        <q-list>
+
+          <template>
+            <q-item style="background-color: #6574cd">
+              <q-item-section avatar style="font-size: 22px">
+                Warenkorb
+                <q-icon name="shopping_cart" size="32px"></q-icon>
+              </q-item-section>
+            </q-item>
+            <q-item v-for="(waren, index) in warenkorb" :key="index">
+              <q-item-section>{{ waren }}</q-item-section>
+            </q-item>
+            <q-separator />
+          </template>
+
+        </q-list>
+      </q-scroll-area>
+    </q-drawer>
     <q-header elevated style="background-image: linear-gradient(to right, rgba(197,229,175,1), rgba(43,118,65,1))">
       <q-toolbar style="height:130px;">
         <img src="~src/assets/TeeSymbol.png" style="width:170px; margin-left: 15px" @click="pushMethod(5)"/>
@@ -44,7 +73,7 @@
           </template>
         </q-input>
         <q-btn flat style="margin-right: 15px">
-          <q-icon name="shopping_cart" size="32px" style="margin-right: 10px"/>
+          <q-icon @click="right = !right" name="shopping_cart" size="32px" style="margin-right: 10px"/>
           <q-badge floating align="top" v-bind:style="$q.dark.isActive ? 'bg-dark' : {background: '#F2C037', color: 'black'}">{{countWarenkorb()}}</q-badge>
         </q-btn>
         <q-btn flat style="margin-right: 5px">
@@ -64,9 +93,14 @@ export default {
   name: 'MainLayout',
   data () {
     return {
+      right: false,
       menu: false,
       menuOver: false,
       listOver: false,
+      warenkorb: {
+        Artikel1: 'test',
+        Artikel2: 'www'
+      },
       text: ''
     }
   },
