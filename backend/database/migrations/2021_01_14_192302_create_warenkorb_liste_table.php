@@ -15,9 +15,10 @@ class CreateWarenkorbListeTable extends Migration
     {
         Schema::create('warenkorb_liste', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('produkt_id')->nullable()->constrained('produkt')->onDelete('set null');
+            $table->foreignId('produkt_id')->constrained('produkt')->onDelete('cascade');
+            $table->foreignId('user_id')->constrained('users')->onDelete('cascade');
             $table->integer('menge');
-            $table->String('gewicht');
+            $table->String('gewicht_warenkorb');
         });
     }
 

@@ -16,27 +16,31 @@ class warenkorb_listeSeeder extends Seeder
     {
         DB::table('warenkorb_liste')->insert([
             'id' => '1',
+            'user_id' => '1',
             'produkt_id' => '2',
             'menge' => '1',
-            'gewicht' => '50'
+            'gewicht_warenkorb' => '50'
         ]);
         DB::table('warenkorb_liste')->insert([
             'id' => '2',
+            'user_id' => '1',
             'produkt_id' => '11',
             'menge' => '15',
-            'gewicht' => '50'
+            'gewicht_warenkorb' => '200'
         ]);
         DB::table('warenkorb_liste')->insert([
             'id' => '3',
+            'user_id' => '1',
             'produkt_id' => '17',
             'menge' => '25',
-            'gewicht' => '50'
+            'gewicht_warenkorb' => '200'
         ]);
         DB::table('warenkorb_liste')->insert([
             'id' => '4',
+            'user_id' => '2',
             'produkt_id' => '30',
             'menge' => '5',
-            'gewicht' => '50'
+            'gewicht_warenkorb' => '100'
         ]);
     }
 }

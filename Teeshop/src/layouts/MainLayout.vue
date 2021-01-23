@@ -4,11 +4,11 @@
       side="right"
       v-model="right"
       show-if-above
-      :width="300"
+      :width="390"
       overlay
       :breakpoint="500"
-      bordered
       content-class="bg-grey-3"
+      style="border: solid thin"
     >
       <q-scroll-area class="fit">
         <q-list>
@@ -20,10 +20,22 @@
                 <q-icon name="shopping_cart" size="32px"></q-icon>
               </q-item-section>
             </q-item>
-            <q-item v-for="(waren, index) in warenkorb" :key="index">
-              <q-item-section>{{ waren }}</q-item-section>
+            <div>
+              <span v-for="(waren, index) in warenkorb" :key="index">
+            <q-item class="row" clickable @click="showEmit">
+              <q-item-section class="col-1"><b>{{ waren.menge + 'x'}}</b></q-item-section>
+              <q-item-section class="col-2"><b>{{ waren.gewicht_warenkorb + 'g'}}</b></q-item-section>
+              <q-item-section class="col-7" style="word-break: break-all;"><b>{{ waren.name}}</b></q-item-section>
+              <q-item-section class="col-3"><b>{{ priceMethod(waren.preis, waren.menge, waren.gewicht_warenkorb) }}</b></q-item-section>
             </q-item>
-            <q-separator />
+                <q-separator/>
+              </span>
+              <q-separator style="height:10px"/>
+              <q-item style="font-size: 17px">
+              <q-item-section class="col-9"><b>Summe:</b></q-item-section>
+                <q-item-section class="col-3"><b> {{ this.summe }}€</b></q-item-section>
+              </q-item>
+            </div>
           </template>
 
         </q-list>
@@ -74,7 +86,7 @@
         </q-input>
         <q-btn flat style="margin-right: 15px">
           <q-icon @click="right = !right" name="shopping_cart" size="32px" style="margin-right: 10px"/>
-          <q-badge floating align="top" v-bind:style="$q.dark.isActive ? 'bg-dark' : {background: '#F2C037', color: 'black'}">{{countWarenkorb()}}</q-badge>
+          <q-badge floating align="top">{{countWarenkorb()}}</q-badge>
         </q-btn>
         <q-btn flat style="margin-right: 5px">
           <q-icon name="account_circle" size="32px" style="margin-right: 30px"/>
@@ -89,22 +101,27 @@
 
 <script>
 
+import axios from 'axios'
+
 export default {
   name: 'MainLayout',
   data () {
     return {
-      right: false,
+      userid: 1,
+      right: true,
       menu: false,
       menuOver: false,
       listOver: false,
-      warenkorb: {
-        Artikel1: 'test',
-        Artikel2: 'www'
-      },
+      warenkorb: [],
+      summArray: [],
+      summe: 0,
       text: ''
     }
   },
   methods: {
+    showEmit () {
+      this.$emit('test')
+    },
     test () {
     },
     pushMethod (value) {
@@ -130,9 +147,27 @@ export default {
       }
     },
     countWarenkorb () {
-      const i = 0
-      return i
+      return this.warenkorb.length
+    },
+    priceMethod (menge, preis, gewicht) {
+      const price = menge * preis * gewicht / 100
+      if (price.toString().indexOf('.') !== -1) return price.toFixed(2).toString().replaceAll('.', ',') + '€'
+      return price + '€'
+    },
+    summMethod () {
+      for (let i = 0; i < this.warenkorb.length; i++) {
+        console.log('test')
+        this.summe += this.warenkorb[i].menge * this.warenkorb[i].preis * this.warenkorb[i].gewicht_warenkorb / 100
+      }
+      this.summe = this.summe.toFixed(2).replaceAll('.', ',')
+    },
+    getWarenkorb () {
+      axios.post('http://127.0.0.1:8000/api/getWarenkorb', { id: this.userid }).then(response => { this.warenkorb = response.data })
     }
+  },
+  mounted () {
+    this.getWarenkorb()
+    setTimeout(() => { this.summMethod() }, 2000)
   }
 }
 </script>

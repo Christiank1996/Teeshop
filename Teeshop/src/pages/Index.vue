@@ -5,7 +5,7 @@
     <q-scroll-area style="height:843px;width: 100%; background-color: #EEEEEE">
     <div class="q-pa-md">
       <div class="q-col-gutter-md row items-start">
-        <div v-for="(produkt, index) in alleProdukte" :key="produkt.id" class="col-6">
+        <div v-for="(produkt, index) in alleProdukte" :key="index" class="col-6">
           <q-item clickable style="background-color: #dddddd" @click="showDialog(index)">
             <q-item-section>
           <q-img
@@ -19,7 +19,7 @@
             </q-item-section>
               <q-item-section style="font-size: 18px">
                 <b>{{produkt.name}}</b><br>{{produkt.beschreibung}}<br><br>
-                ab {{ (2.5 * inhalt).toString().substr(0, ((2.5 * inhalt).toString().length) - 2) + ',' + (2.5 * inhalt).toString().substr(((2.5 * inhalt).toString().length - 2)) }}€<br>
+                ab {{ produkt.preis.toFixed(2) }}€<br>
                 <span style="font-size: 13px">Inhalt: {{ inhalt }}g</span>
               </q-item-section>
           </q-item>
@@ -28,11 +28,11 @@
     </div>
     </q-scroll-area>
   </div>
-    <q-dialog v-model="showArticle" style="">
+    <q-dialog v-model="showArticle">
         <q-card style="width: 600px; max-width: 800px; background-color: #dddddd;">
           <q-item style="background-color: #dddddd; width:600px; max-width: 800px; height:330px; margin:50px 0 50px 0">
             <div v-if="alleProdukte[indexNumber].id <= 4" class="absolute-bottom-right text-subtitle1 text-center"><br>
-              <div id="clickable" ><b><span @click="addToCart"  style="font-size: 12px; color:darkslategrey; margin-right: 65px">Zum Warenkorb hinzufügen <q-icon @click="addToCart" name="shopping_cart" size="32px"></q-icon></span></b></div>
+              <div id="clickable" ><b><span @click="addToCart(index)"  style="font-size: 12px; color:darkslategrey; margin-right: 65px">Zum Warenkorb hinzufügen <q-icon @click="addToCart" name="shopping_cart" size="32px"></q-icon></span></b></div>
           </div>
             <q-item-section>
               <q-img
@@ -106,7 +106,7 @@
                   </q-item>
                 </q-list>
               </q-btn-dropdown></span><br>
-              <b><span style="text-align: left">Preis: {{ (2.5 * inhaltDialog * amount).toString().substr(0, ((2.5 * inhaltDialog * amount).toString().length) - 2) + ',' + (2.5 * inhaltDialog * amount).toString().substr(((2.5 * inhaltDialog * amount).toString().length - 2)) }}€</span></b><br>
+              <b><span style="text-align: left">Preis: {{ (inhaltDialog / 100 * this.alleProdukte[this.indexNumber].preis * amount).toFixed(2) }}€</span></b><br>
             </q-item-section>
           </q-item>
       </q-card>
@@ -115,18 +115,27 @@
 </template>
 
 <script>
-
 import axios from 'axios'
 export default {
   data () {
     return {
+      framework: {
+        plugins: [
+          'Notify'
+        ],
+        config: {
+          notify: { /* look at QUASARCONFOPTIONS from the API card (bottom of page) */ }
+        }
+      },
       name: '',
       amount: '1',
       inhalt: '100',
       inhaltDialog: '100',
       indexNumber: '0',
       showArticle: false,
-      alleProdukte: []
+      alleProdukte: [],
+      summe: '',
+      user_id: 2
     }
   },
   name: 'PageIndex',
@@ -142,13 +151,24 @@ export default {
     changeAmount (value) {
       this.amount = value
     },
-    addToCart () {
-      console.log('id = ' + this.alleProdukte[this.indexNumber])
-      axios.post('http://127.0.0.1:8000/api/addCart', { id: this.alleProdukte[this.indexNumber].id, amount: this.amount }).then(response => { this.name = response.data })
+    addToCart (index) {
+      console.log('id = ' + this.alleProdukte[this.indexNumber].id)
+      console.log('user = ' + this.user_id)
+      console.log('menge = ' + this.amount)
+      console.log('gewicht = ' + this.inhaltDialog)
+      axios.post('http://127.0.0.1:8000/api/addCart', { produkt_id: this.alleProdukte[this.indexNumber].id, user_id: this.user_id, menge: this.amount, gewicht: this.inhaltDialog }).then(
+        response => {
+          this.$q.notify({
+            color: 'primary',
+            message: this.amount + 'x ' + this.alleProdukte[this.indexNumber].name + ' ' + this.inhaltDialog + 'g wurden ihrem Einkaufswagen hinzugefügt'
+          })
+          this.name = response.data
+        })
+      this.showArticle = false
     }
   },
   mounted () {
-    axios.get('http://127.0.0.1:8000/api/alleTeesorten').then(response => { this.alleProdukte = response.data }).then(response => console.log('alle Produkte = ' + this.alleProdukte))
+    axios.get('http://127.0.0.1:8000/api/alleTeesorten').then(response => { this.alleProdukte = response.data })
     this.test()
   }
 }

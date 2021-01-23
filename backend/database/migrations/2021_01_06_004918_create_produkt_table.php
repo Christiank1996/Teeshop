@@ -16,8 +16,12 @@ class CreateProduktTable extends Migration
         Schema::create('produkt', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->enum('art', ['gruentee', 'oolongtee', 'schwarztee', 'weisstee']);
             $table->string('beschreibung');
+            $table->enum('TeeKategorie', ['gruentee', 'oolongtee', 'schwarztee', 'weisstee', 'zubehoer'])->default('gruentee');
+            $table->enum('Artikelart', ['Tee', 'zubehoer'])->default('Tee');
+            $table->enum('gewicht', ['50', '100', '200', '500'])->default('100')->nullable();
+            $table->string('herkunft')->default('China')->nullable();
+            $table->double('preis')->default(2.40);
             $table->string('imagename');
         });
     }
