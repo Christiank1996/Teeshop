@@ -162,12 +162,14 @@ export default {
       this.summe = this.summe.toFixed(2).replaceAll('.', ',')
     },
     getWarenkorb () {
-      axios.post('http://127.0.0.1:8000/api/getWarenkorb', { id: this.userid }).then(response => { this.warenkorb = response.data })
+      axios.post('http://127.0.0.1:8000/api/getWarenkorb', { id: this.userid }).then(response => {
+        this.warenkorb = response.data
+        this.summMethod()
+      })
     }
   },
   mounted () {
     this.getWarenkorb()
-    setTimeout(() => { this.summMethod() }, 2000)
   }
 }
 </script>

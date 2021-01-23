@@ -23,27 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2b3924d-39d7-47e5-89c3-17a8f6c50a61" name="Default Changelist" comment="Warenkorb und Menge">
-      <change afterPath="$PROJECT_DIR$/backend/app/Http/Controllers/WarenkorbController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/Models/WarenkorbModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/database/seeders/BestellungSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/.quasar/import-quasar.js" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/.quasar/import-quasar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/quasar.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/quasar.conf.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Teeshop/src/layouts/MainLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/layouts/MainLayout.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/pages/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/pages/Index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Http/Controllers/ProduktController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Http/Controllers/ProduktController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/database/migrations/2021_01_06_004918_create_produkt_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/migrations/2021_01_06_004918_create_produkt_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/database/migrations/2021_01_13_100812_create_preise_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/migrations/2021_01_20_165024_create_bestellung_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/database/migrations/2021_01_13_101658_create_produkt_preise_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/migrations/2021_01_13_101658_create_produkt_preise_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/database/migrations/2021_01_14_192302_create_warenkorb_liste_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/migrations/2021_01_14_192302_create_warenkorb_liste_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/database/migrations/2021_01_14_192303_create_warenkorb_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/migrations/2021_01_14_192303_create_warenkorb_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/database/seeders/preiseSeeder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/database/seeders/produktSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/seeders/produktSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/database/seeders/produkt_preiseSeeder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/database/seeders/warenkorb_listeSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/seeders/warenkorb_listeSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +225,8 @@
       <workItem from="1611086363252" duration="18466000" />
       <workItem from="1611132787332" duration="22027000" />
       <workItem from="1611244426291" duration="527000" />
-      <workItem from="1611433782156" duration="573000" />
+      <workItem from="1611433782156" duration="781000" />
+      <workItem from="1611434854128" duration="274000" />
     </task>
     <task id="LOCAL-00001" summary=".env geadded">
       <created>1609955801196</created>
@@ -295,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611106980937</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Warenkorb und Menge">
+      <created>1611434570693</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1611434570693</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,14 +316,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="689" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611161499576" />
-    <state x="439" y="93" key="SettingsEditor" timestamp="1611006299494">
+    <state x="439" y="93" key="SettingsEditor" timestamp="1611434530760">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="439" y="93" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611006299494" />
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1611106988931">
+    <state x="439" y="93" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611434530760" />
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1611434579361">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611106988931" />
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611434579361" />
     <state x="776" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611433904475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
