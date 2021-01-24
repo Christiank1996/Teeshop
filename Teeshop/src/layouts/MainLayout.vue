@@ -107,7 +107,7 @@ export default {
   name: 'MainLayout',
   data () {
     return {
-      userid: 1,
+      userid: 2,
       right: true,
       menu: false,
       menuOver: false,
