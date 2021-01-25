@@ -12,7 +12,6 @@
     >
       <q-scroll-area class="fit">
         <q-list>
-
           <template>
             <q-item style="background-color: #6574cd">
               <q-item-section avatar style="font-size: 22px">
@@ -22,11 +21,11 @@
             </q-item>
             <div>
               <span v-for="(waren, index) in warenkorb" :key="index">
-            <q-item class="row" clickable @click="showEmit">
-              <q-item-section class="col-1"><b>{{ waren.menge + 'x'}}</b></q-item-section>
+            <q-item class="row" clickable >
+              <q-item-section class="col-1"><b>{{ waren.menge + 'x' }}</b></q-item-section>
               <q-item-section class="col-2"><b>{{ waren.gewicht_warenkorb + 'g'}}</b></q-item-section>
               <q-item-section class="col-7" style="word-break: break-all;"><b>{{ waren.name}}</b></q-item-section>
-              <q-item-section class="col-3"><b>{{ priceMethod(waren.preis, waren.menge, waren.gewicht_warenkorb) }}</b></q-item-section>
+              <q-item-section class="col-2"><b>{{ priceMethod(waren.preis, waren.menge, waren.gewicht_warenkorb) }}</b></q-item-section>
             </q-item>
                 <q-separator/>
               </span>
@@ -37,7 +36,6 @@
               </q-item>
             </div>
           </template>
-
         </q-list>
       </q-scroll-area>
     </q-drawer>
@@ -107,7 +105,7 @@ export default {
   name: 'MainLayout',
   data () {
     return {
-      userid: 2,
+      userid: 1,
       right: true,
       menu: false,
       menuOver: false,
@@ -177,7 +175,7 @@ export default {
 button {
   margin-left: 5px;
   margin-right: 5px;
-  height: 40px;
+  height: 60px;
 }
 .q-btn {
   font-size: 18px;

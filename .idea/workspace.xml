@@ -24,10 +24,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b2b3924d-39d7-47e5-89c3-17a8f6c50a61" name="Default Changelist" comment="Warenkorb und Menge">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/pages/gruenertee.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/pages/gruenertee.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/pages/oolongtee.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/pages/oolongtee.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/pages/schwarzertee.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/pages/schwarzertee.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teeshop/src/pages/weissertee.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/pages/weissertee.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teeshop/src/layouts/MainLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/layouts/MainLayout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teeshop/src/pages/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/pages/Index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +228,9 @@
       <workItem from="1611244426291" duration="527000" />
       <workItem from="1611433782156" duration="781000" />
       <workItem from="1611434854128" duration="902000" />
-      <workItem from="1611513793082" duration="3226000" />
+      <workItem from="1611513793082" duration="4551000" />
+      <workItem from="1611565447399" duration="30000" />
+      <workItem from="1611599453766" duration="5803000" />
     </task>
     <task id="LOCAL-00001" summary=".env geadded">
       <created>1609955801196</created>
@@ -302,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611514379086</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Warenkorb und Menge">
+      <created>1611517620035</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1611517620035</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,10 +345,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="439" y="93" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611434530760" />
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1611514381899">
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1611517624284">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611514381899" />
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611517624284" />
     <state x="776" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611433904475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

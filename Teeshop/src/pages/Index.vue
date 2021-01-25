@@ -31,8 +31,8 @@
     <q-dialog v-model="showArticle">
         <q-card style="width: 600px; max-width: 800px; background-color: #dddddd;">
           <q-item style="background-color: #dddddd; width:600px; max-width: 800px; height:330px; margin:50px 0 50px 0">
-            <div v-if="alleProdukte[indexNumber].id <= 4" class="absolute-bottom-right text-subtitle1 text-center"><br>
-              <div id="clickable" ><b><span @click="addToCart(index)"  style="font-size: 12px; color:darkslategrey; margin-right: 65px">Zum Warenkorb hinzufügen <q-icon @click="addToCart" name="shopping_cart" size="32px"></q-icon></span></b></div>
+            <div class="absolute-bottom-right text-subtitle1 text-center"><br>
+              <div id="clickable" ><b><span @click="addToCart()"  style="font-size: 12px; color:darkslategrey; margin-right: 65px">Zum Warenkorb hinzufügen <q-icon @click="addToCart" name="shopping_cart" size="32px"></q-icon></span></b></div>
           </div>
             <q-item-section>
               <q-img
@@ -151,7 +151,7 @@ export default {
     changeAmount (value) {
       this.amount = value
     },
-    addToCart (index) {
+    addToCart () {
       console.log('id = ' + this.alleProdukte[this.indexNumber].id)
       console.log('user = ' + this.user_id)
       console.log('menge = ' + this.amount)
