@@ -19,10 +19,17 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2b3924d-39d7-47e5-89c3-17a8f6c50a61" name="Default Changelist" comment="Warenkorb und Menge">
+      <change afterPath="$PROJECT_DIR$/Getting Started" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Teeshop/src/layouts/MainLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/layouts/MainLayout.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Teeshop/src/pages/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Teeshop/src/pages/Index.vue" afterDir="false" />
@@ -202,6 +209,19 @@
       <recent name="C:\Users\chris\Desktop\CK\Schule\Softwaretechnik I\Teeshop\backend\public" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -230,7 +250,14 @@
       <workItem from="1611434854128" duration="902000" />
       <workItem from="1611513793082" duration="4551000" />
       <workItem from="1611565447399" duration="30000" />
-      <workItem from="1611599453766" duration="5803000" />
+      <workItem from="1611599453766" duration="9367000" />
+      <workItem from="1611652294597" duration="53000" />
+      <workItem from="1611688821495" duration="2674000" />
+      <workItem from="1611709515320" duration="1955000" />
+      <workItem from="1611737694013" duration="2924000" />
+      <workItem from="1611743917757" duration="12000" />
+      <workItem from="1611751209832" duration="88000" />
+      <workItem from="1612050367713" duration="824000" />
     </task>
     <task id="LOCAL-00001" summary=".env geadded">
       <created>1609955801196</created>
@@ -309,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611517620035</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Warenkorb und Menge">
+      <created>1611606265639</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1611606265639</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +354,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -337,6 +383,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Warenkorb und Menge" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="704" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612050829023">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="704" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1612050829023" />
     <state x="689" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1611161499576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -345,13 +395,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="439" y="93" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611434530760" />
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1611517624284">
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1611606268120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611517624284" />
-    <state x="776" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611433904475">
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611606268120" />
+    <state x="776" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612050696872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="776" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1612050696872" />
     <state x="776" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611433904475" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1611161691458">
       <screen x="0" y="0" width="1920" height="1040" />

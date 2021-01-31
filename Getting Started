@@ -1,0 +1,13 @@
+SETUP
+
+Um das Projekt lokal zum Laufen zu bringen wird folgendes benoetigt:
+
+(Vorinstallation nodejs + npm noetig)
+1. 'composer install' im backend Ordner
+2. 'npm install' im Teeshop Ordner
+3. XAMPP Installation
+4. Anpassung der .env File im backend Ordner fuer die SQL-Anbindung
+5. XAMPP Datenbank mit dem Namen aus der .env anlegen
+6. XAMPP starten
+7. 'php artisan serve' im backend Ordner ausfuehren
+8. 'quasar dev' im Teeshop Ordner ausfuehren

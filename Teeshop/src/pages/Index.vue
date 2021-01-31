@@ -32,7 +32,7 @@
         <q-card style="width: 600px; max-width: 800px; background-color: #dddddd;">
           <q-item style="background-color: #dddddd; width:600px; max-width: 800px; height:330px; margin:50px 0 50px 0">
             <div class="absolute-bottom-right text-subtitle1 text-center"><br>
-              <div id="clickable" ><b><span @click="addToCart()"  style="font-size: 12px; color:darkslategrey; margin-right: 65px">Zum Warenkorb hinzufügen <q-icon @click="addToCart" name="shopping_cart" size="32px"></q-icon></span></b></div>
+              <div @click="addToCart()" id="clickable" ><b><span  style="font-size: 12px; color:darkslategrey; margin-right: 65px">Zum Warenkorb hinzufügen <q-icon name="shopping_cart" size="32px"></q-icon></span></b></div>
           </div>
             <q-item-section>
               <q-img
